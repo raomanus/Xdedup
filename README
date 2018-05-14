@@ -1,0 +1,4 @@
+The following project contains an implementation of a system call in the form of a loadable kernel module. The system call
+deduplicates two files if they contain the same content and are owned by the same user. This is done via three flags that are
+passed as arguments to the system call. A partial deduplication feature is also supported which allows the user to write out
+common bytes in the two files to a third output file.
